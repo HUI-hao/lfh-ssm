@@ -5,11 +5,17 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import {listUser} from "@/api/user/user";
 
 export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  mounted() {
+    listUser().then(res=> {
+      console.log(res)
+    })
   }
 }
 </script>

@@ -7,7 +7,7 @@ import {
 /**
  * 定义路由信息
  */
-const router = []
+const routes = []
 
 // 创建路由实例并传递‘routers’配置
 // 我们在这里使用 html5 的路由模式，url中不带有#，部署项目的时候需要注意。
